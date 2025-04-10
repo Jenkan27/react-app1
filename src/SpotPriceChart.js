@@ -38,13 +38,13 @@ const spotPriceData = [
           <BarChart
             data={spotPriceData}
             layout="vertical"
-            margin={{ top: 20, right: 30, bottom: 20, left: 50 }}
+            //margin={{ top: 20, right: 30, bottom: 20, left: 50 }}
           >
             <CartesianGrid strokeDasharray="3 3" />
             <XAxis type="number" unit=" €" />
             <YAxis dataKey="hour" type="category" width={60} />
             <Tooltip />
-            <Bar dataKey="price" fill="#8884d8" barSize={20} />
+            <Bar dataKey="price" fill="rgb(104, 214, 163)" barSize={20} />
           </BarChart>
         </ResponsiveContainer>
       );
