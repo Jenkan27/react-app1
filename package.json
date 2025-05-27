@@ -1,5 +1,5 @@
 {
-  "homepage": "https://jenkan27.github.io/react-app1",
+  "homepage": "https://react-app1.jensholm.com",
   "name": "my-react-app",
   "version": "0.1.0",
   "private": true,
@@ -12,7 +12,6 @@
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.4.0",
     "react-scripts": "5.0.1",
-    "recharts": "^2.15.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
